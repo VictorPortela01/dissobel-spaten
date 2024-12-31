@@ -62,6 +62,10 @@ div.campo > label {
     font-weight: 600 ;
     margin-left: 60px;
 }
+label {
+    display: block;
+    margin-bottom: 5px;
+}
 input {
     display: block;
     margin: auto;
@@ -77,12 +81,12 @@ span {
 }
 #person {
     position: absolute;
-    top: 27%;
+    top: 29%;
     left: 88%;
 }
 #key {
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 88%;
 }
 .button {
