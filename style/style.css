@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #72af499d;
+}
+
+section.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-color: aquamarine;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transform: translate(-50%, -50%);
+}
+/* COR 1 6EA946 
+*/
+div.imagem {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #72AF49;
+    background-image: url(../image/logo-spaten.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+div.logo{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+div.login{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: #D0CECE;
+}
+div.campo {
+    margin-top: 80px;
+}
+div.campo > label {
+    font-family: 'Open sans';
+    font-size: 1em;
+    font-weight: 600 ;
+    margin-left: 60px;
+}
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+}
+span {
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 15px;
+}
+#person {
+    position: absolute;
+    top: 27%;
+    left: 88%;
+}
+#key {
+    position: absolute;
+    top: 46%;
+    left: 88%;
+}
+.button {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    padding: 10px;
+    background-color: #0070C0;
+    color: white;
+    width: 250px;
+    height: 45px;
+    border-radius: 55px;
+
+}
