@@ -17,7 +17,6 @@ section.box {
     left: 50%;
     overflow: hidden;
 
-    background-color: aquamarine;
     width: 700px;
     height: 400px;
     border-radius: 10px;
@@ -86,7 +85,7 @@ span {
 }
 #key {
     position: absolute;
-    top: 50%;
+    top: 49.5%;
     left: 88%;
 }
 .button {
@@ -105,5 +104,12 @@ span {
     width: 250px;
     height: 45px;
     border-radius: 55px;
+    cursor: pointer;
 
+
+}
+
+.button:hover{
+    background-color: #034e83;
+    transition: .1s;
 }
