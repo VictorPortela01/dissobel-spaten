@@ -1,115 +1,74 @@
 @charset "UTF-8";
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
 body {
-    width: 100vw;
-    height: 100vh;
     background-color: #72af499d;
+    font-family: 'Open sans';
+
 }
 
 section.box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-
-    width: 700px;
-    height: 400px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
-    transform: translate(-50%, -50%);
-}
-/* COR 1 6EA946 
-*/
-div.imagem {
-    float: left;
-    width: 50%;
-    height: 100%;
+    width: 400px;
+    margin: auto;
+    height: 500px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    border-radius: 10px 10px 0px 0px;
     background-color: #72AF49;
+
+}
+
+div.imagem {
+    height: 50%;
     background-image: url(../image/logo-spaten.png);
-    background-position: center center;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     
 }
-
-div.logo{
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-
+img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    
+}
+div.login{
+    width: 100%;
+    height: 50%;
+    background-color: #D0CECE;
+    border-radius: 0px 0px 10px 10px ;
     
 }
 
-div.login{
-    float: right;
-    width: 50%;
-    height: 100%;
-    background-color: #D0CECE;
-}
-div.campo {
-    margin-top: 80px;
-}
-div.campo > label {
-    font-family: 'Open sans';
-    font-size: 1em;
-    font-weight: 600 ;
-    margin-left: 60px;
-}
 label {
     display: block;
     margin-bottom: 5px;
+    text-align: left;
+    
+    font-weight: 600;
+    font-family: 'Open sans';
+    font-size: 0.8em;
 }
+
 input {
     display: block;
     margin: auto;
-    margin-bottom: 10px;
-    width: 70%;
-    height: 45px;
-    border-radius: 20px;
+    width: 300px;
+    height: 30px;
     border: none;
-}
-span {
-    background-color: rgba(0, 0, 0, 0.151);
     border-radius: 15px;
+
 }
-#person {
+
+#person{
     position: absolute;
-    top: 29%;
-    left: 88%;
+    top: 51%;
+    right: 24%;
 }
 #key {
     position: absolute;
-    top: 49.5%;
-    left: 88%;
+    top: 59.5%;
+    right: 24%;
 }
+
 .button {
-    position: absolute;
-    top: 70%;
-    left: 75%;
-    transform: translate(-50%,-50%);
-    
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    padding: 10px;
-    background-color: #0070C0;
-    color: white;
-    width: 250px;
-    height: 45px;
-    border-radius: 55px;
-    cursor: pointer;
-
-
-}
-
-.button:hover{
-    background-color: #034e83;
-    transition: .1s;
+  
 }
