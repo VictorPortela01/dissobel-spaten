@@ -6,14 +6,18 @@ body {
 }
 
 section.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
     width: 400px;
-    margin: auto;
     height: 500px;
-    margin-top: 70px;
+    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
     border-radius: 10px 10px 0px 0px;
     background-color: #72AF49;
 
+    transform: translate(-50%, -50%);
 }
 
 div.imagem {
@@ -61,13 +65,16 @@ input {
 
 #person{
     position: absolute;
-    top: 54.5%;
-    right: 24%;
+    top: 56.5%;
+    right: 17%;
+    transform: translate(50%, 50%);
 }
 #key {
     position: absolute;
-    top: 62.5%;
-    right: 24%;
+    top: 67%;
+    right: 17%;
+    transform: translate(50%, 50%);
+
 }
 
 a {
